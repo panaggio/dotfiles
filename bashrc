@@ -3,7 +3,7 @@
 # for examples
 
 # If not running interactively, don't do anything
-[ -z "$PS1" ] && return
+if [[ -n "$PS1" ]] ; then
 
 # don't put duplicate lines in the history. See bash(1) for more options
 export HISTCONTROL=ignoredups
@@ -74,7 +74,13 @@ fi
 xset b 0
 
 export RUBYOPT=rubygems
-export PATH=/var/lib/gems/1.8:$PATH
+export PATH=/var/lib/gems/1.8:~/.gem/ruby/1.8/bin:$PATH
 
+export JRUBYOPT=rubygems
 export JRUBY_HOME=/usr/lib/jruby1.1/
 export PATH=$PATH:$JRUBY_HOME/bin
+
+#script that makes rvm work
+if [[ -s $HOME/.rvm/scripts/rvm ]] ; then source $HOME/.rvm/scripts/rvm ; fi
+
+fi

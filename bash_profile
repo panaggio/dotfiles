@@ -18,4 +18,7 @@ fi
 # xset b 0
 
 export RUBYOPT=rubygems
-export PATH=/var/lib/gems/1.8:$PATH
+export PATH=/var/lib/gems/1.8:~/.gem/ruby/1.8/bin/:$PATH
+
+#script that makes rvm work
+if [[ -s $HOME/.rvm/scripts/rvm ]] ; then source $HOME/.rvm/scripts/rvm ; fi
