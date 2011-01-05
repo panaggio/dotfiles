@@ -1,0 +1,1 @@
+* create a common file for bashrc and bash_profile and source this file in both bash[rc|_profile]
