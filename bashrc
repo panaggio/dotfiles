@@ -80,6 +80,9 @@ export JRUBYOPT=rubygems
 export JRUBY_HOME=/usr/lib/jruby1.1/
 export PATH=$PATH:$JRUBY_HOME/bin
 
+#seahorse workaround https://bugs.launchpad.net/ubuntu/+source/gnome-keyring/+bug/201786
+export SSH_AUTH_SOCK=0
+
 #script that makes rvm work
 if [[ -s $HOME/.rvm/scripts/rvm ]] ; then source $HOME/.rvm/scripts/rvm ; fi
 
