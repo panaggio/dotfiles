@@ -5,5 +5,5 @@
 	email = panaggio.ricardo@gmail.com
 [url "git@github.com:panaggio/"]
   pushInsteadOf = panaggio:
-[url "git://github.com/panaggio/dotfiles.git"]
+[url "git://github.com/panaggio/"]
   insteadOf = panaggio:
