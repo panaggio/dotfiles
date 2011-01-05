@@ -73,10 +73,8 @@ fi
 
 xset b 0
 
-export RUBYOPT=rubygems
 export PATH=/var/lib/gems/1.8:~/.gem/ruby/1.8/bin:$PATH
 
-export JRUBYOPT=rubygems
 export JRUBY_HOME=/usr/lib/jruby1.1/
 export PATH=$PATH:$JRUBY_HOME/bin
 

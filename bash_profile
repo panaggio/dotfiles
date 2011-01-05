@@ -17,7 +17,6 @@ fi
 
 # xset b 0
 
-export RUBYOPT=rubygems
 export PATH=/var/lib/gems/1.8:~/.gem/ruby/1.8/bin/:$PATH
 
 #seahorse workaround https://bugs.launchpad.net/ubuntu/+source/gnome-keyring/+bug/201786
