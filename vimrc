@@ -32,6 +32,7 @@ set softtabstop=2
 set incsearch " incremental search
 
 autocmd FileType c setl shiftwidth=4 cindent tabstop=4 softtabstop=4
+autocmd FileType make set noet ts=4 sw=4
 
 " Set hotkey for regenerating tags to Control-F5
 map <C-F5>  :!ctags -R --c-kinds=+pm-nu  --fields=+ianS --extra=+q -I *<CR>
