@@ -52,3 +52,6 @@
 [submodule "vim/bundle/jquery"]
 	path = vim/bundle/jquery
 	url = https://github.com/vim-scripts/jQuery.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
