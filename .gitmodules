@@ -43,3 +43,6 @@
 [submodule "vim/bundle/ri-browser"]
 	path = vim/bundle/ri-browser
 	url = https://github.com/vim-scripts/ri-browser.git
+[submodule "vim/bundle/textile-for-vim"]
+	path = vim/bundle/textile-for-vim
+	url = https://github.com/vim-scripts/Textile-for-VIM.git
