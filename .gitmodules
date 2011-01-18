@@ -40,3 +40,6 @@
 [submodule "vim/bundle/supertab"]
 	path = vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "vim/bundle/ri-browser"]
+	path = vim/bundle/ri-browser
+	url = https://github.com/vim-scripts/ri-browser.git
