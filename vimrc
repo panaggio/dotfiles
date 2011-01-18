@@ -1,5 +1,8 @@
 " vimrc by @ivf, adapted
 
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
