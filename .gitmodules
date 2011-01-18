@@ -46,3 +46,6 @@
 [submodule "vim/bundle/textile-for-vim"]
 	path = vim/bundle/textile-for-vim
 	url = https://github.com/vim-scripts/Textile-for-VIM.git
+[submodule "vim/bundle/autoclose"]
+	path = vim/bundle/autoclose
+	url = https://github.com/vim-scripts/AutoClose.git
