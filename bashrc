@@ -81,6 +81,9 @@ export PATH=$PATH:$JRUBY_HOME/bin
 #seahorse workaround https://bugs.launchpad.net/ubuntu/+source/gnome-keyring/+bug/201786
 export SSH_AUTH_SOCK=0
 
+export R_HOME=/usr/lib/R
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/R/lib
+
 #script that makes rvm work
 if [[ -s $HOME/.rvm/scripts/rvm ]] ; then source $HOME/.rvm/scripts/rvm ; fi
 
