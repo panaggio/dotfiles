@@ -22,6 +22,7 @@ endif
 
 set ul=1000 " max undo levels 
 nohlsearch 
+set backspace=indent,eol,start
 set expandtab " expand tabs to spaces
 " Set best color scheme to dark consoles
 "set background=dark
@@ -34,6 +35,8 @@ set tabstop=2 " tabstop == ts
 set softtabstop=2
 set incsearch " incremental search
 
+au BufEnter *.md set ft=markdown
+au BufEnter *.mkd set ft=markdown
 autocmd FileType c setl shiftwidth=4 cindent tabstop=4 softtabstop=4
 autocmd FileType make set noet ts=4 sw=4
 
