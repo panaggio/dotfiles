@@ -55,9 +55,3 @@
 [submodule "vim/bundle/r"]
 	path = vim/bundle/r
 	url = https://github.com/vim-scripts/Vim-R-plugin.git
-[submodule "vim/bundle/dbext"]
-	path = vim/bundle/dbext
-	url = https://github.com/edsono/vim-dbext.git
-[submodule "vim/bundle/markdown"]
-	path = vim/bundle/markdown
-	url = git://github.com/plasticboy/vim-markdown.git
