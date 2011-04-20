@@ -7,3 +7,5 @@
   pushInsteadOf = panaggio:
 [url "git://github.com/panaggio/"]
   insteadOf = panaggio:
+[core]
+  editor = vim
